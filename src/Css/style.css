@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.productBox{
+    display: flex;
+    width: 50%;
+    padding: 2vw;
+    margin: 0 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+}
+
+.Filters{
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    padding: 0.5%;
+    font-size: 3vh;
+    color:darksalmon;
+    height: 60%;
+    
+}
+
+.Filters span{
+    padding-bottom: 2.5vh;
+}
+
+.Products{
+    width: 40%;
+    margin: 10px;
+   
+}
+
+.img{
+    height: 250px;
+}
